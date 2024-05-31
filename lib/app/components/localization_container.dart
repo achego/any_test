@@ -23,4 +23,5 @@ class LocalizationContainer extends StatelessWidget {
   }
 }
 
+// const _translationPath = 'resources/langs';
 const _translationPath = 'assets/translations';

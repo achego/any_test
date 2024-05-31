@@ -1,23 +1,16 @@
 {
   "msg": "{} are written in the {} language",
   "msg_named": "Easy localization is written in the {lang} language",
-  "msg_mixed": "{} are written in the {lang}  and {email} language with a touch on {} and breast milk",
-  "hey_no_args": "hey there no args",
+  "msg_mixed": "{} are written in the {lang} language",
   "gender": {
     "male": "Hi man ;) {}",
     "female": "Hello girl :) {}",
     "other": "Hello {}"
   },
   "example": {
-    "hello": {
-      "meal": "the mean is nice", 
-      "nice": {
-        "test": "Im over doing "
-      }
-    },
-    "price": "pridn ndn",
+    "hello": "Hello",
     "world": "World!",
-    "helloWorld": "so im {} trying to {mail} test this thing o"
+    "helloWorld": "@:example.hello @:example.world"
   },
   "test": {
     "what_your_name": "Hello bro what is your name",

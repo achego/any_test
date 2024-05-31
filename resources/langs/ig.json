@@ -1,5 +1,5 @@
 {
-  "msg": "{} meya in the {} language",
+  "msg": "{} are bera in the {} language",
   "msg_named": "Easy localization is written in the {lang} language",
   "msg_mixed": "{} are written in the {lang} language",
   "gender": {
@@ -11,5 +11,9 @@
     "hello": "Bia",
     "world": "World!",
     "helloWorld": "@:example.hello @:example.world"
+  },
+  "test": {
+    "what_your_name": "Hello bro what is your name",
+    "dov": "were talking of dob"
   }
 }

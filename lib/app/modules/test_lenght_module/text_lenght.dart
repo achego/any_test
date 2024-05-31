@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import '../../../core/logger.dart';
 
 class TextLenght extends StatelessWidget {
@@ -24,6 +25,22 @@ class TextLenght extends StatelessWidget {
               child: const Text(
                 text,
                 style: style,
+              ),
+            ),
+
+            Container(
+              color: Colors.red.withOpacity(0.3),
+              // height: 100,
+
+              child: TextFormField(
+                style: const TextStyle(height: 10 / 15),
+                cursorHeight: 10,
+                cursorWidth: 30,
+                cursorRadius: const Radius.circular(20),
+                decoration: const InputDecoration(
+                    // isDense: true,
+                    // isCollapsed: true,
+                    ),
               ),
             ),
             // Container(
@@ -160,5 +177,3 @@ int getSecondLineLength(String text, TextStyle style, double maxWidth) {
 
   return secondLineText.trim().length;
 }
-
-

@@ -1,8 +1,7 @@
 {
   "msg": "{} are written in the {} language",
   "msg_named": "Easy localization is written in the {lang} language",
-  "msg_mixed": "{} are written in the {lang}  and {email} language with a touch on {} and breast milk",
-  "hey_no_args": "hey there no args",
+  "msg_mixed": "{} are written in the {lang} language",
   "gender": {
     "male": "Hi man ;) {}",
     "female": "Hello girl :) {}",
@@ -10,12 +9,8 @@
   },
   "example": {
     "hello": {
-      "meal": "the mean is nice", 
-      "nice": {
-        "test": "Im over doing "
-      }
+      "neal": "the meal is a closed"
     },
-    "price": "pridn ndn",
     "world": "World!",
     "helloWorld": "so im {} trying to {mail} test this thing o"
   },
